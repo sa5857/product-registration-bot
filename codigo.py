@@ -1,5 +1,9 @@
-Merge: Integrando arquivos do GitHub com projeto local
 
+
+# Configuração
+# Passo 1 - Instalação da biblioteca pyaotogui
+
+# A lógica de programação envolvida
 # Passo 1 - entrar no sistema da empresa
 # Passo 2 - fazer login
 # Passo 3 - abrir a base de dados
