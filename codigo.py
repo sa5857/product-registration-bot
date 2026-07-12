@@ -1,7 +1,8 @@
 
 
-# Configuração
-# Passo 1 - Instalação da biblioteca pyaotogui
+# Configuração dentro do terminal
+# Passo 1 - Atualizaçãod o pip: python -m pip install --upgrade pip
+# Passo 2 - Instalação da biblioteca pyaotogui: pip install pyautogui
 
 # A lógica de programação envolvida
 # Passo 1 - entrar no sistema da empresa
