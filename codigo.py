@@ -7,7 +7,7 @@ import pyautogui
 
 #inteligência do algoritmo
 # Passo 1 - entrar no sistema da empresa (abrir o navegador)
-
+pyautogui.PAUSE = 2
 # Passo 1 - entrar no sistema da empresa
 pyautogui.press("win")
 pyautogui.write("chrome")
