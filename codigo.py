@@ -10,6 +10,8 @@ import pyautogui
 
 # Passo 1 - entrar no sistema da empresa
 pyautogui.press("win")
+pyautogui.write("chrome")
+pyautogui.press("enter")
 
 # Passo 2 - fazer login
 # Passo 3 - abrir a base de dados
