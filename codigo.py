@@ -14,6 +14,7 @@ pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
 pyautogui.write(link)
+pyautogui.press("enter")
 
 # Passo 2 - fazer login
 # Passo 3 - abrir a base de dados
