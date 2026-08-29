@@ -4,6 +4,7 @@
 # Passo 1 - Atualizaçãod o pip: python -m pip install --upgrade pip
 # Passo 2 - Instalação da biblioteca pyaotogui: pip install pyautoguipyaoutogui
 import pyautogui
+import time
 
 #inteligência do algoritmo
 # Passo 1 - entrar no sistema da empresa (abrir o navegador)
@@ -15,6 +16,10 @@ pyautogui.write("chrome")
 pyautogui.press("enter")
 pyautogui.write(link)
 pyautogui.press("enter")
+time.sleep(3)
+
+
+#fazer uma pausa maior para o site carregar
 
 # Passo 2 - fazer login
 # Passo 3 - abrir a base de dados
