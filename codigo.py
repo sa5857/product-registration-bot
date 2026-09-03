@@ -31,8 +31,10 @@ time.sleep(3)
 #clicar no campo de email e digitar o email
 pyautogui.click(x=597, y=508)
 pyautogui.write("pythonimpressionador@gmail.com")
-#passar para o próximo campo
-pyautogui.press("tab")
+pyautogui.press("tab") #passar para o próximo campo
+pyautogui.write("123456") #digitar a senha
+pyautogui.press("tab") #pular para o botão
+pyautogui.press("enter") #apertar o botão
 
 # Passo 3 - abrir a base de dados
 # Passo 4 - cadastrar um produto
