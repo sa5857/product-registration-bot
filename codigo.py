@@ -23,18 +23,17 @@ pyautogui.hotkey("ctrl", "l")  # Seleciona a barra de endereço
 
 pyautogui.write(link)
 pyautogui.press("enter")
-
-#fazer uma pausa maior para o site carregar 
-time.sleep(3)
+ 
+time.sleep(3)  #fazer uma pausa maior para o site carregar
 
 # Passo 2 - fazer login
-#clicar no campo de email e digitar o email
-pyautogui.click(x=597, y=508)
+pyautogui.click(x=597, y=508) #clicar no campo de email e digitar o email
 pyautogui.write("pythonimpressionador@gmail.com")
 pyautogui.press("tab") #passar para o próximo campo
 pyautogui.write("123456") #digitar a senha
 pyautogui.press("tab") #pular para o botão
 pyautogui.press("enter") #apertar o botão
+pyautogui.sleep(3) #uma pausa maior para carregar a página
 
 # Passo 3 - abrir a base de dados
 # Passo 4 - cadastrar um produto
