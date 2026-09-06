@@ -43,5 +43,11 @@ pyautogui.sleep(1) #uma pausa maior para carregar a página
 
 tabela = pandas.read_csv("produtos.csv")
 print(tabela)
+
 # Passo 4 - cadastrar um produto
+pyautogui.click(x=682, y=301)
+
+
+
+
 # Passo 5 - repetir o passo quatro ate acabar a lista de produtospythonimpressionador@gmail.com 123456  
