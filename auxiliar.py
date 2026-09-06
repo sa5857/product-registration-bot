@@ -1,5 +1,5 @@
-import time
-import pyautogui
+import pandas
 
-time.sleep(5)
-print(pyautogui.position())
+tabela = pandas.read_csv("tabela.csv")
+print.read("tabela")
+

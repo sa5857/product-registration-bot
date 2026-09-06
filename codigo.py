@@ -9,7 +9,7 @@ import pandas
 
 #inteligência do algoritmo
 # Passo 1 - entrar no sistema da empresa (abrir o navegador)
-pyautogui.PAUSE = 2
+pyautogui.PAUSE = 1
 link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 # Passo 1 - entrar no sistema da empresa
 pyautogui.press("win")
@@ -41,7 +41,7 @@ pyautogui.sleep(1) #uma pausa maior para carregar a página
 # pipi install pandas openpyxl
 
 
-tabela = pandas.read_csv("tabela.csv")
+tabela = pandas.read_csv("produtos.csv")
 print(tabela)
 # Passo 4 - cadastrar um produto
 # Passo 5 - repetir o passo quatro ate acabar a lista de produtospythonimpressionador@gmail.com 123456  
