@@ -5,6 +5,7 @@
 # Passo 2 - Instalação da biblioteca pyaotogui: pip install pyautoguipyaoutogui
 import pyautogui
 import time
+import pandas
 
 #inteligência do algoritmo
 # Passo 1 - entrar no sistema da empresa (abrir o navegador)
@@ -13,7 +14,7 @@ link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 # Passo 1 - entrar no sistema da empresa
 pyautogui.press("win")
 pyautogui.write("chrome")
-pyautogui.press("enter") 
+pyautogui.press("enter")
 
 # FORÇA O FOCO NA BARRA DE ENDEREÇO
 # Método 1: Usar atalho do Chrome (Ctrl+L ou F6)
@@ -35,6 +36,6 @@ pyautogui.press("tab") #pular para o botão
 pyautogui.press("enter") #apertar o botão
 pyautogui.sleep(3) #uma pausa maior para carregar a página
 
-# Passo 3 - abrir a base de dados
+# Passo 3 - abrir a base de dados (importar o arquivo)
 # Passo 4 - cadastrar um produto
 # Passo 5 - repetir o passo quatro ate acabar a lista de produtos
