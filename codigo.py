@@ -45,7 +45,9 @@ tabela = pandas.read_csv("produtos.csv")
 print(tabela)
 
 # Passo 4 - cadastrar um produto
-pyautogui.click(x=682, y=301)
+pyautogui.click(x=682, y=301) #vai clicar no campo do código do produto
+pyautogui.write()
+pyautogui.press("tab") #passar para o próximo campo
 
 
 
