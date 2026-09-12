@@ -44,11 +44,27 @@ pyautogui.sleep(1) #uma pausa maior para carregar a página
 tabela = pandas.read_csv("produtos.csv")
 print(tabela)
 
-# Passo 4 - cadastrar um produto
+# Passo 4 - cadastrar 1 produto
+#código
 pyautogui.click(x=682, y=301) #vai clicar no campo do código do produto
-pyautogui.write()
+pyautogui.write("MOLO000251")
 pyautogui.press("tab") #passar para o próximo campo
-
+#marca
+pyautogui.write("Logitech")
+pyautogui.press("tab") #passar para o próximo campo
+#tipo
+pyautogui.write("Mouse1")
+pyautogui.press("tab") #passar para o próximo campo
+#categoria
+pyautogui.write("categoria")
+pyautogui.press("tab") #passar para o próximo campo
+#preço
+pyautogui.write("preço")
+pyautogui.press("tab") #passar para o próximo campo
+#custo
+pyautogui.write("custo")
+pyautogui.press("tab") #passar para o próximo campo
+#passo 5: repetir o passo quatro até acabar todos os produtos
 
 
 
