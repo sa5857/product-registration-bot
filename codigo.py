@@ -65,6 +65,13 @@ for linha in tabela.index:
     #custo
     pyautogui.write("custo")
     pyautogui.press("tab") #passar para o próximo campo
+    #observação
+    pyautogui.write("obs")
+    pyautogui.press("tab") #passar para o próximo campo
+
+    pyautogui.press("enter") #clicou no botão "enviar"
+        
+
 #passo 5: repetir o passo quatro até acabar todos os produtos
 
 
