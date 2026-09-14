@@ -1,6 +1,5 @@
 # product-registration-bot
-Automação RPA para cadastro em massa de produtos com PyAutoGUI e Python
-Automação RPA para cadastro em massa de produtos com PyAutoGUI e Python
+Automação RPA para cadastro em massa de produtos com PyAutoGUI (Python)
 
 ## Como usar
 1. Clone o repositório
