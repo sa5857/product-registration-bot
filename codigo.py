@@ -48,6 +48,7 @@ for linha in tabela.index:
     # Passo 4 - cadastrar 1 produto
     #código
     pyautogui.click(x=682, y=301) #vai clicar no campo do código do produto
+    codigo = tabela.loc[linha, "codigo"]
     pyautogui.write("MOLO000251")
     pyautogui.press("tab") #passar para o próximo campo
     #marca
