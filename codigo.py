@@ -52,6 +52,7 @@ for linha in tabela.index:
     pyautogui.write("MOLO000251")
     pyautogui.press("tab") #passar para o próximo campo
     #marca
+    codigo = tabela.loc[linha, "marca"]
     pyautogui.write("Logitech")
     pyautogui.press("tab") #passar para o próximo campo
     #tipo
