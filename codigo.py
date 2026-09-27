@@ -56,18 +56,23 @@ for linha in tabela.index:
     pyautogui.write("Logitech")
     pyautogui.press("tab") #passar para o próximo campo
     #tipo
+    codigo = tabela.loc[linha, "tipo"]
     pyautogui.write("Mouse1")
     pyautogui.press("tab") #passar para o próximo campo
     #categoria
+    codigo = tabela.loc[linha, "categoria"]
     pyautogui.write("categoria")
     pyautogui.press("tab") #passar para o próximo campo
     #preço
+    codigo = tabela.loc[linha, "preco_unitario"]
     pyautogui.write("preço")
     pyautogui.press("tab") #passar para o próximo campo
     #custo
+    codigo = tabela.loc[linha, "custo"]
     pyautogui.write("custo")
     pyautogui.press("tab") #passar para o próximo campo
     #observação
+    codigo = tabela.loc[linha, "obs"]
     pyautogui.write("obs")
     pyautogui.press("tab") #passar para o próximo campo
 
