@@ -49,31 +49,31 @@ for linha in tabela.index:
     #código
     pyautogui.click(x=682, y=301) #vai clicar no campo do código do produto
     codigo = tabela.loc[linha, "codigo"]
-    pyautogui.write("MOLO000251")
+    pyautogui.write(codigo)
     pyautogui.press("tab") #passar para o próximo campo
     #marca
     codigo = tabela.loc[linha, "marca"]
-    pyautogui.write("Logitech")
+    pyautogui.write(marca)
     pyautogui.press("tab") #passar para o próximo campo
     #tipo
     codigo = tabela.loc[linha, "tipo"]
-    pyautogui.write("Mouse1")
+    pyautogui.write(tipo)
     pyautogui.press("tab") #passar para o próximo campo
     #categoria
     codigo = tabela.loc[linha, "categoria"]
-    pyautogui.write("categoria")
+    pyautogui.write(categoria)
     pyautogui.press("tab") #passar para o próximo campo
     #preço
     codigo = tabela.loc[linha, "preco_unitario"]
-    pyautogui.write("preço")
-    pyautogui.press("tab") #passar para o próximo campo
+    pyautogui.write(preco)
+    pyautogui.press("preco") #passar para o próximo campo
     #custo
     codigo = tabela.loc[linha, "custo"]
-    pyautogui.write("custo")
+    pyautogui.write(custo)
     pyautogui.press("tab") #passar para o próximo campo
     #observação
     codigo = tabela.loc[linha, "obs"]
-    pyautogui.write("obs")
+    pyautogui.write(obs)
     pyautogui.press("tab") #passar para o próximo campo
 
     pyautogui.press("enter") #clicou no botão "enviar"
