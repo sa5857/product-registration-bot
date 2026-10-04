@@ -48,31 +48,31 @@ for linha in tabela.index:
     # Passo 4 - cadastrar 1 produto
     #código
     pyautogui.click(x=682, y=301) #vai clicar no campo do código do produto
-    codigo = tabela.loc[linha, "codigo"]
+    codigo = str(tabela.loc[linha, "codigo"])
     pyautogui.write(codigo)
     pyautogui.press("tab") #passar para o próximo campo
     #marca
-    codigo = tabela.loc[linha, "marca"]
+    marca = str(tabela.loc[linha, "marca"])
     pyautogui.write(marca)
     pyautogui.press("tab") #passar para o próximo campo
     #tipo
-    codigo = tabela.loc[linha, "tipo"]
+    tipo = str(tabela.loc[linha, "tipo"])
     pyautogui.write(tipo)
     pyautogui.press("tab") #passar para o próximo campo
     #categoria
-    codigo = tabela.loc[linha, "categoria"]
+    categoria = str(tabela.loc[linha, "categoria"])
     pyautogui.write(categoria)
     pyautogui.press("tab") #passar para o próximo campo
     #preço
-    codigo = tabela.loc[linha, "preco_unitario"]
+    preco = str(tabela.loc[linha, "preco_unitario"])
     pyautogui.write(preco)
     pyautogui.press("preco") #passar para o próximo campo
     #custo
-    codigo = tabela.loc[linha, "custo"]
+    custo = str(tabela.loc[linha, "custo"])
     pyautogui.write(custo)
     pyautogui.press("tab") #passar para o próximo campo
     #observação
-    codigo = tabela.loc[linha, "obs"]
+    obs = str(tabela.loc[linha, "obs"])
     pyautogui.write(obs)
     pyautogui.press("tab") #passar para o próximo campo
 
